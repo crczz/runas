@@ -1,0 +1,310 @@
+body {
+	background-image: url("bg.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.ulises_a {
+	text-decoration: none;
+	color: white;
+}
+
+.boton_ulises {
+	display: inline-block;
+	background-color: black;
+	border-radius: 5px;
+	font-size: 2em;
+	padding: 5px;
+}
+
+.maxi_a {
+	text-decoration: none;
+	color: white;
+}
+
+.boton_maxi {
+	display: inline-block;
+	background-color: black;
+	border-radius: 5px;
+	font-size: 2em;
+	padding: 5px;
+}
+
+.Boton-inicio {
+	display: inline-block;
+	text-align: center;
+}
+
+.runa {
+	background-color: white;
+	width: 3em;
+	border: 5px solid black;
+	margin: auto;
+	text-align: center;
+	height: 1.2em;
+	font-size: 5em;
+}
+
+
+.katarina {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 13em;
+	display: inline-block;
+	width: 7em;
+	height: 7em;
+	border: 5px solid black;
+	background-image: url(kata.png);
+	background-size: cover;
+	z-index: 1;
+}
+
+.kata_runas {
+	display: none;
+	visibility: hidden;
+	width: 10em;
+	height: 20em;
+	border: 5px solid black;
+	background-image: url(kata_runas_1.png);
+	background-size: cover;
+
+}
+
+
+.katarina:hover + .kata_runas{
+	visibility: visible;
+	display: inline-flex;
+}
+
+
+.ryze {
+	margin-bottom: 13em;
+	display: inline-block;
+	width: 7em;
+	height: 7em;
+	border: 5px solid black;
+	background-image: url(ryze.png);
+	background-size: cover;
+}
+
+.ryze_runas {
+	display: none;
+	visibility: hidden;
+	width: 10em;
+	height: 20em;
+	border: 5px solid black;
+	background-image: url(ryze_runas.png);
+	background-size: cover;
+}
+
+.ryze:hover + .ryze_runas{
+	visibility: visible;
+	display: inline-block;
+}
+
+.leblanc {
+	margin-bottom: 13em;
+	display: inline-block;
+	width: 7em;
+	height: 7em;
+	border: 5px solid black;
+	background-image: url(leblanc.png);
+	background-size: cover;
+}
+
+.leblanc_runas {
+	display: none;
+	visibility: hidden;
+	width: 10em;
+	height: 20em;
+	border: 5px solid black;
+	background-image: url(leblanc_runas.png);
+	background-size: cover;
+}
+
+.leblanc:hover + .leblanc_runas{
+	visibility: visible;
+	display: inline-block;
+}
+
+.yone {
+	margin-bottom: 13em;
+	display: inline-block;
+	width: 7em;
+	height: 7em;
+	border: 5px solid black;
+	background-image: url(yone.png);
+	background-size: cover;
+}
+
+.yone_runas {
+	display: none;
+	visibility: hidden;
+	width: 10em;
+	height: 20em;
+	border: 5px solid black;
+	background-image: url(yone_runas.png);
+	background-size: cover;
+}
+
+.yone:hover + .yone_runas{
+	visibility: visible;
+		display: inline-block;
+}
+
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+.gp {
+	margin-top: 10px;
+	margin-bottom: 13em;
+	display: inline-block;
+	width: 7em;
+	height: 7em;
+	border: 5px solid black;
+	background-image: url(gp.png);
+	background-size: cover;
+}
+
+.gp_runas {
+	display: none;
+	visibility: hidden;
+	width: 10em;
+	height: 20em;
+	border: 5px solid black;
+	background-image: url(gp_runas.png);
+	background-size: cover;
+}
+
+.gp:hover + .gp_runas{
+	visibility: visible;
+	display: inline-block;
+
+}
+
+.malphite {
+	margin-top: 10px;
+	margin-bottom: 13em;
+	display: inline-block;
+	width: 7em;
+	height: 7em;
+	border: 5px solid black;
+	background-image: url(malphite.png);
+	background-size: cover;
+}
+
+.malphite_runas {
+	display: none;
+	visibility: hidden;
+	width: 10em;
+	height: 20em;
+	border: 5px solid black;
+	background-image: url(malphite_runas.png);
+	background-size: cover;
+}
+
+.malphite:hover + .malphite_runas{
+	visibility: visible;
+	display: inline-block;
+}
+
+.kennen {
+	margin-top: 10px;
+	margin-bottom: 13em;
+	display: inline-block;
+	width: 7em;
+	height: 7em;
+	border: 5px solid black;
+	background-image: url(kennen.png);
+	background-size: cover;
+}
+
+.kennen_runas {
+	display: none;
+	visibility: hidden;
+	width: 10em;
+	height: 20em;
+	border: 5px solid black;
+	background-image: url(kennen_runas.png);
+	background-size: cover;
+}
+
+.kennen:hover + .kennen_runas{
+	visibility: visible;
+	display: inline-block;
+}
+
+.vayne {
+	margin-top: 10px;
+	margin-bottom: 13em;
+	display: inline-block;
+	width: 7em;
+	height: 7em;
+	border: 5px solid black;
+	background-image: url(vayne.png);
+	background-size: cover;
+}
+
+.vayne_runas {
+	display: none;
+	visibility: hidden;
+	width: 10em;
+	height: 20em;
+	border: 5px solid black;
+	background-image: url(vayne_runas.png);
+	background-size: cover;
+}
+
+.vayne:hover + .vayne_runas{
+	visibility: visible;
+	display: inline-block;
+}
+
+.kled {
+	margin-top: 10px;
+	margin-bottom: 13em;
+	display: inline-block;
+	width: 7em;
+	height: 7em;
+	border: 5px solid black;
+	background-image: url(kled.png);
+	background-size: cover;
+}
+
+.kled_runas {
+	display: none;
+	visibility: hidden;
+	width: 10em;
+	height: 20em;
+	border: 5px solid black;
+	background-image: url(kled_runas.png);
+	background-size: cover;
+}
+
+.kled:hover + .kled_runas{
+	visibility: visible;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
